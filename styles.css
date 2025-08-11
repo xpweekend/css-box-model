@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 40px;
+    font-weight: 100;
+    font-family: "comic sans ms", cursive, sans-serif;
+}
+
+.box-one {
+    background-color: #eb5757;
+    padding: 10px;
+    height: 100px;
+    width: 100px;
+    border: 30px solid #9b51e0;
+    margin: 60px;
+    /* box-sizing: border-box; This here makes it so that the size of the box is 100x100px including the border, otherwise it would be 180x180 ignoring the margin */
+}
+
+.box-two {
+    background-color: #2d9cdb;
+    border: 0 solid #27ae60;
+    padding: 10px;
+    height: 100px;
+    width: 100px;
+    border: 30px solid #9b51e0;
+    margin: 60px;
+}
